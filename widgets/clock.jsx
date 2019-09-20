@@ -26,7 +26,7 @@ class Clock extends React.Component {
     return (<>
     <div>
       <h1 id="clock-title">Clock</h1>
-      <div class="clock">
+      <div className="clock">
         <p>
           <span>Time: </span>
           <span>{this.state.time.toLocaleTimeString('en-US')} EDT</span>

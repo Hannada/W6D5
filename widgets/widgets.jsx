@@ -8,5 +8,6 @@ import Root from './root'
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("root");
-  ReactDOM.render(<Root name="Big Ben"/>, root);
+
+  ReactDOM.render(<Root clockName="Big Ben" />, root);
 });
