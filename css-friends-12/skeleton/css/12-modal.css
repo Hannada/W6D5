@@ -1,6 +1,6 @@
 /* PHASE 12: Modal */
 .modal {
-
+  display: none;
 }
 
 .modal-screen {
@@ -16,7 +16,10 @@
 .modal-form {
   position: absolute;
   margin: 0 auto; 
-  
+}
+
+.modal.is-open {
+  display: block;
 }
 
 
